@@ -1,0 +1,42 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="zxc.laitooo.sri">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".ForgetPasswordActivity" />
+        <activity android:name=".ProfileActivity"
+            android:label=""/>
+        <activity android:name=".WebinarsActivity" />
+        <activity android:name=".about.AboutSriActivity" />
+        <activity android:name=".about.AboutWebsiteActivity" />
+        <activity android:name=".AnnouncementsActivity" />
+        <activity android:name=".about.ContactUsActivity" />
+        <activity android:name=".CompleteSignningActivity" />
+        <activity android:name=".LoginActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SignningActivity"/>
+        <activity android:name=".SelectQuestionActivity" />
+        <activity android:name=".SelectPostActivity" />
+        <activity android:name=".OtherPersonProfileActivity" />
+        <activity android:name=".NotificationsActivity" />
+        <activity android:name=".NominateActivity"  />
+        <activity android:name=".NewPostActivity" />
+        <activity android:name=".NewQuestionActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".about.LogoStoryActivity" />
+
+    </application>
+
+</manifest>
