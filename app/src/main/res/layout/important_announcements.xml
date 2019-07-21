@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorPrimary"
+    android:id="@+id/important_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/img_btn_mar"
+        android:layout_marginLeft="@dimen/img_btn_mar"
+        android:src="@android:drawable/ic_dialog_info"
+        android:id="@+id/imageView" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/title_text_size_2"
+        android:text="@string/are_you_researcher"
+        android:layout_marginTop="@dimen/img_btn_mar"
+        android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+        android:textColor="@color/black"
+        android:layout_marginRight="@dimen/imp_text_mar"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_toEndOf="@+id/imageView" />
+
+    <ImageButton
+        android:layout_width="@dimen/about_button_width_and_height"
+        android:layout_height="@dimen/about_button_width_and_height"
+        android:src="@android:drawable/ic_menu_close_clear_cancel"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/button_important"
+        android:layout_marginTop="@dimen/img_btn_mar"
+        android:layout_marginRight="@dimen/img_btn_mar"
+        android:background="@color/no_color"/>
+
+</RelativeLayout>

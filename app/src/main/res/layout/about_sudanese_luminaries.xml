@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    android:background="@color/colorPrimaryDark">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:paddingBottom="@dimen/content_padding_bottom"
+        android:paddingLeft="@dimen/content_padding_left"
+        android:paddingRight="@dimen/content_padding_right"
+        android:paddingTop="@dimen/content_padding_top"
+        android:text="Sudanese Luminaries"
+        android:id="@+id/textView3"
+        android:textColor="@color/colorPrimary" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/title_text_size_2"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="What,why,how,who --- our selection criteria
+What
+Establishing a Sudanese researchers footprint is at the core of SRI targets. There are two broad categories to this goal:
+Establishing a Sudanese luminaries index.
+Establishing a Sudanese researchers scientific output database.
+Why
+We internally call these two activities people seeding and publication seeding. The aim of this seeding exercise is to eventually grow and nurture the researchers within us through inspiration.
+By reflecting on the collective achievement of other Sudanese researchers throughout the World we will appreciate our strengths and work hard on improving our skills for a better tomorrow.
+Such an optimistic positive attitude that espouses patience and perseverance is a very important trait of a successful scientist and unless we are reminded of our strengths we tend to slouch back a little and miss important opportunities only because we lacked the courage or motivation to pursue them.
+SRI particularly encourages people with promising talent to feel confident and act confident to overcome any difficulties. The best booster to this is to learn that nothing comes easily; Rome wasn't built in one day, and that other Sudanese people out there have made significant contributions too.
+How
+Towards people seeding; SRI will sport weekly posts featuring Sudanese who have made global achievements across the academic and scientific board. These posts will highlight their achievements; providing short bios and links to their work.
+Publication seeding is a bit tricky, as many of the SRI activities it requires active member participation. So if you are a researcher and have participated in conferences, seminars, articles, books ..etc, we highly encourage you to spend the time to fill in your bibliographical information in your profile.
+We say in Sudan “إيد لإيد تجدع بعيد”. On this principle, your listing of your achievements will be very valuable to other Sudanese researchers and to the aspirants who want to follow on your footsteps.
+Who
+If you are thinking like a researcher you will be wondering by now about the systematic methodology and inclusion criteria SRI adopts to determine who makes it to the Sudanese Luminaries.
+The criteria is very straightforward and simple, the candidate has to be Sudanese and has to have made high quality academic contributions in Sudan or Internationally
+Do you have a Sudanese personality you want featured ?
+Fill up the nomination form so that your candidate will be added to the queue of personalities to be featured in the weekly luminaries announcements
+You need to provide a short bio about the personality, a link from a reliable source and a good quality photo. We will take it from there"
+            android:id="@+id/textView2"
+            android:textColor="@color/white" />
+    </ScrollView>
+</LinearLayout>

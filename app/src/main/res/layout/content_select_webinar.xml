@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.zizo.sri.SelectWebinarActivity"
+    >
+
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/youtubePlayer"
+        android:background="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/video_name"
+        android:id="@+id/videoname"
+        android:textSize="@dimen/important_title_text_size"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@+id/youtubePlayer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/elative_layout_margin_left_and_right" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/video_date"
+        android:textSize="@dimen/title_text_size_2"
+        android:paddingLeft="@dimen/elative_layout_margin_left_and_right"
+        android:textColor="@color/white"
+        android:id="@+id/videodate"
+        android:layout_below="@+id/videoname"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/video_information"
+        android:paddingLeft="@dimen/elative_layout_margin_left_and_right"
+        android:textSize="@dimen/title_text_size_2"
+        android:id="@+id/videoinfo"
+        android:layout_below="@+id/videodate"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

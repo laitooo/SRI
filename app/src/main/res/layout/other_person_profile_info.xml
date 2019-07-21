@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/d">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/elative_layout_margin_left_and_right"
+                android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+                android:layout_marginRight="@dimen/elative_layout_margin_left_and_right"
+                android:paddingBottom="@dimen/elative_layout_margin_left_and_right"
+                android:layout_below="@+id/fragment_edit"
+                android:background="@drawable/layout_style"
+                android:id="@+id/Re1"
+                xmlns:android="http://schemas.android.com/apk/res/android">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+                    android:textSize="@dimen/important_title_text_size"
+                    android:layout_marginTop="@dimen/elative_layout_margin_left_and_right"
+                    android:id="@+id/proBioTitle1"
+                    android:text="User Information"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/spinner_line_height"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/proBioTitle1"
+                    android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+                    android:layout_marginRight="@dimen/elative_layout_margin_left_and_right"
+                    android:id="@+id/proBioLine1"
+                    android:background="@color/white"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/highest_qualification"
+                    android:id="@+id/textView6"
+                    android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+                    android:drawablePadding="10dp"
+                    android:textSize="17dp"
+                    android:layout_marginTop="@dimen/elative_layout_margin_left_and_right"
+                    android:layout_below="@+id/proBioLine1"
+                    android:textColor="@color/colorPrimary"
+                    android:drawableLeft="@drawable/icon_notification"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView6"
+                    android:id="@+id/degree"
+                    android:textSize="@dimen/title_text_size"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+                    android:layout_marginTop="@dimen/profile_margin"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/current_location"
+                    android:id="@+id/textView8"
+                    android:layout_below="@+id/degree"
+                    android:layout_marginTop="@dimen/elative_layout_margin_left_and_right"
+                    android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+                    android:textSize="17dp"
+                    android:drawablePadding="10dp"
+                    android:textColor="@color/colorPrimary"
+                    android:drawableLeft="@drawable/icon_king"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/country"
+                    android:layout_below="@+id/textView8"
+                    android:textSize="@dimen/title_text_size"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+                    android:layout_marginTop="@dimen/profile_margin" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/home_town"
+                    android:drawablePadding="10dp"
+                    android:id="@+id/textView10"
+                    android:layout_below="@+id/country"
+                    android:textSize="17dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_marginTop="@dimen/elative_layout_margin_left_and_right"
+                    android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+                    android:drawableLeft="@drawable/icon_remote" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/city"
+                    android:layout_below="@+id/textView10"
+                    android:textSize="@dimen/title_text_size"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+                    android:layout_marginTop="@dimen/profile_margin" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/website"
+                    android:id="@+id/textView12"
+                    android:layout_below="@+id/city"
+                    android:layout_marginTop="@dimen/elative_layout_margin_left_and_right"
+                    android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+                    android:textSize="17dp"
+                    android:drawablePadding="10dp"
+                    android:textColor="@color/colorPrimary"
+                    android:drawableLeft="@drawable/icon_allien" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/website"
+                    android:layout_below="@+id/textView12"
+                    android:textSize="@dimen/title_text_size"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+                    android:layout_marginTop="@dimen/profile_margin" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/occupation"
+                    android:id="@+id/textView14"
+                    android:layout_below="@+id/website"
+                    android:layout_marginTop="@dimen/elative_layout_margin_left_and_right"
+                    android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+                    android:textSize="17dp"
+                    android:drawablePadding="10dp"
+                    android:textColor="@color/colorPrimary"
+                    android:drawableLeft="@drawable/icon_car" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/job"
+                    android:layout_below="@+id/textView14"
+                    android:textSize="@dimen/title_text_size"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+                    android:layout_marginTop="@dimen/profile_margin" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Re1"
+                android:id="@+id/Re2"
+                android:layout_marginTop="@dimen/elative_layout_margin_left_and_right"
+                android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+                android:layout_marginRight="@dimen/elative_layout_margin_left_and_right"
+                android:paddingBottom="@dimen/elative_layout_margin_left_and_right"
+                android:background="@drawable/layout_style">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+                    android:textSize="@dimen/important_title_text_size"
+                    android:layout_marginTop="@dimen/elative_layout_margin_left_and_right"
+                    android:id="@+id/proBioTitle"
+                    android:text="Languages"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/spinner_line_height"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/proBioTitle"
+                    android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+                    android:layout_marginRight="@dimen/elative_layout_margin_left_and_right"
+                    android:id="@+id/proBioLine3"
+                    android:background="@color/white"/>
+
+                <android.support.v7.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Languages"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/proBioLine3" />
+
+                <!--AutoCompleteTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/Languages"
+                    android:hint="@string/hint_languages"
+                    android:textColorHint="@color/white"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/title_text_size_2"
+                    android:layout_marginRight="@dimen/elative_layout_margin_left_and_right"
+                    android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+                    android:paddingLeft="@dimen/elative_layout_margin_left_and_right"
+                    android:paddingRight="@dimen/elative_layout_margin_left_and_right"
+                    android:layout_marginTop="@dimen/elative_layout_margin_left_and_right"
+                    android:id="@+id/add_lang_auto" />
+
+                <Button
+                    android:id="@+id/UserLevel"
+                    android:layout_width="@dimen/button_width"
+                    android:layout_height="@dimen/button_height"
+                    android:background="@drawable/button_style"
+                    android:text="@string/add"
+                    android:layout_below="@+id/add_lang_auto"
+                    android:layout_marginTop="@dimen/elative_layout_margin_left_and_right"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="@dimen/button_text_size"
+                    android:textColor="@color/colorPrimaryDark" /-->
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Re2"
+                android:layout_marginTop="@dimen/elative_layout_margin_left_and_right"
+                android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+                android:layout_marginRight="@dimen/elative_layout_margin_left_and_right"
+                android:paddingBottom="@dimen/elative_layout_margin_left_and_right"
+                android:background="@drawable/layout_style">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+                    android:textSize="@dimen/important_title_text_size"
+                    android:layout_marginTop="@dimen/elative_layout_margin_left_and_right"
+                    android:id="@+id/proFieldTitle"
+                    android:text="Research fields"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/spinner_line_height"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/proFieldTitle"
+                    android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+                    android:layout_marginRight="@dimen/elative_layout_margin_left_and_right"
+                    android:id="@+id/proFieldLine"
+                    android:background="@color/white"/>
+
+                <android.support.v7.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ResearcheFields"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/proFieldLine" />
+
+
+
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+
+
+</RelativeLayout>

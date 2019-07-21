@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item
+        android:title="Change Profile Picture"
+        android:id="@+id/changePicture"
+        app:showAsAction="never"
+        android:orderInCategory="101" />
+
+
+    <item
+        android:title="Update Email"
+        android:id="@+id/updateEmail"
+        app:showAsAction="never"
+        android:orderInCategory="1000"/>
+
+    <item
+        android:title="Deactive Account"
+        android:id="@+id/deactiveAccount"
+        app:showAsAction="never"
+        android:orderInCategory="10000"/>
+
+    <item
+        android:title="Change Password"
+        android:id="@+id/changePassword"
+        app:showAsAction="never"
+        android:orderInCategory="100000"/>
+
+
+</menu>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:gravity="start|center"
+    android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+    android:drawableLeft="@drawable/icon_car"
+    android:drawablePadding="@dimen/elative_layout_margin_left_and_right"
+    android:textColor="@color/white"
+    android:textSize="20dp"
+    android:text="@string/arabic"
+    android:paddingLeft="@dimen/elative_layout_margin_left_and_right"
+    android:id="@+id/LangText">
+
+</TextView>

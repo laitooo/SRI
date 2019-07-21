@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layout_style"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/log_out"
+        android:textSize="@dimen/important_title_text_size"
+        android:id="@+id/ts"
+        android:textColor="@color/colorPrimary"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ts"
+        android:paddingLeft="@dimen/elative_layout_margin_left_and_right"
+        android:paddingRight="@dimen/elative_layout_margin_left_and_right"
+        android:text="@string/log_out_assurance"
+        android:textSize="@dimen/title_text_size_2"
+        android:id="@+id/tt1"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:layout_width="@dimen/button_width_3"
+        android:layout_height="@dimen/button_height"
+        android:text="@string/yes"
+        android:layout_marginTop="@dimen/elative_layout_margin_left_and_right"
+        android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/button_text_size"
+        android:background="@drawable/button_style"
+        android:id="@+id/dia_bt1"
+        android:layout_below="@+id/tt1" />
+
+    <Button
+        android:layout_width="@dimen/button_width_3"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginTop="@dimen/elative_layout_margin_left_and_right"
+        android:textSize="@dimen/button_text_size"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@drawable/button_style"
+        android:text="@string/no"
+        android:layout_marginRight="@dimen/elative_layout_margin_left_and_right"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/dia_bt2"
+        android:layout_below="@+id/tt1" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,56 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/elative_layout_margin_left_and_right">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/logo"
+                android:id="@+id/textView3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/elative_layout_margin_left_and_right"
+                android:textSize="@dimen/important_title_text_size"
+                android:textColor="@color/colorPrimary" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@id/textView3"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/imag1"
+                android:src="@drawable/logo"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imag1"
+                android:paddingLeft="@dimen/content_padding_left"
+                android:paddingRight="@dimen/content_padding_left"
+                android:text="@string/logoStory"
+                android:layout_marginTop="@dimen/title_margin_top"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/textView2"
+                android:textSize="@dimen/title_text_size_2"
+                android:textColor="@color/white" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/layout_style">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/update_email"
+        android:textSize="@dimen/important_title_text_size"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/textView17"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:textSize="@dimen/title_text_size_2"
+        android:textColor="@color/white"
+        android:id="@+id/textView18"
+        android:layout_below="@+id/textView17"
+        android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+        android:layout_marginTop="@dimen/elative_layout_margin_left_and_right"/>
+
+    <EditText
+        android:id="@+id/edit_bio"
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/white"
+        android:layout_below="@+id/textView18"
+        android:paddingRight="@dimen/elative_layout_margin_left_and_right"
+        android:paddingLeft="@dimen/elative_layout_margin_left_and_right"
+        android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+        android:layout_marginRight="@dimen/elative_layout_margin_left_and_right" />
+
+    <Button
+        android:id="@+id/updateEmailBtn"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="@string/update"
+        android:textSize="@dimen/button_text_size"
+        android:background="@drawable/button_style"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/elative_layout_margin_left_and_right"
+        android:layout_below="@+id/edit_bio"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

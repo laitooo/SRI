@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_marginBottom="@dimen/elative_layout_margin_left_and_right"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingLeft="@dimen/elative_layout_margin_left_and_right"
+        android:paddingRight="@dimen/elative_layout_margin_left_and_right"
+        android:background="@drawable/layout_resource_reverse">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/linear_padding_0" >
+
+            <TextView
+                android:id="@+id/PublicationTitle"
+                android:textColor="@color/colorPrimary"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/important_title_text_size"
+                android:text="@string/publication_title" />
+
+            <TextView
+                android:id="@+id/PublicationPublisher"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/profile_margin"
+                android:textColor="@color/white"
+                android:textSize="@dimen/title_text_size"
+                android:text="@string/publication_publisher" />
+
+            <TextView
+                android:id="@+id/comments_time"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/profile_margin"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/title_text_size"
+                android:text="@string/publication_author" />
+
+            <TextView
+                android:id="@+id/PublicationDate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/profile_margin"
+                android:textColor="@color/white"
+                android:textSize="@dimen/title_text_size"
+                android:text="@string/publication_date" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/spinner_line_height"
+                android:background="@color/white"
+                android:layout_marginTop="@dimen/profile_margin"
+                android:id="@+id/textView3"
+                android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

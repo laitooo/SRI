@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark">
+
+    <ImageView
+        android:layout_width="@dimen/logo_2_size"
+        android:layout_height="@dimen/logo_2_size"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/logo_margin_top"/>
+    <TextView
+        android:id="@+id/t"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/title_margin_top"
+        android:layout_gravity="center"
+        android:textSize="@dimen/title_text_size"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/signup_title"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/edit_text_margin_top"
+                android:hint="@string/username"
+                android:layout_marginRight="@dimen/elative_layout_margin_left_and_right"
+                android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+                android:paddingLeft="@dimen/elative_layout_margin_left_and_right"
+                android:paddingRight="@dimen/elative_layout_margin_left_and_right"
+                android:textColorHint="@color/white"/>
+
+            <EditText
+                android:id="@+id/password"
+                android:text=""
+                android:layout_marginRight="@dimen/elative_layout_margin_left_and_right"
+                android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/edit_text_margin_top"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:paddingLeft="@dimen/elative_layout_margin_left_and_right"
+                android:paddingRight="@dimen/elative_layout_margin_left_and_right"
+                android:textColorHint="@color/white"
+                />
+
+            <EditText
+                android:id="@+id/confpw"
+                android:text=""
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/elative_layout_margin_left_and_right"
+                android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+                android:inputType="textPassword"
+                android:layout_margin="@dimen/edit_text_margin_top"
+                android:hint="@string/confirmpw"
+                android:paddingLeft="@dimen/elative_layout_margin_left_and_right"
+                android:paddingRight="@dimen/elative_layout_margin_left_and_right"
+                android:textColorHint="@color/white"
+                />
+
+            <EditText
+                android:id="@+id/useremail"
+                android:text=""
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/elative_layout_margin_left_and_right"
+                android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+                android:layout_margin="@dimen/edit_text_margin_top"
+                android:inputType="textEmailAddress"
+                android:hint="@string/validemail"
+                android:paddingLeft="@dimen/elative_layout_margin_left_and_right"
+                android:paddingRight="@dimen/elative_layout_margin_left_and_right"
+                android:textColorHint="@color/white"
+                />
+
+            <EditText
+                android:id="@+id/firstname"
+                android:layout_width="match_parent"
+                android:text=""
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/elative_layout_margin_left_and_right"
+                android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+                android:layout_margin="@dimen/edit_text_margin_top"
+                android:hint="@string/firstname"
+                android:paddingLeft="@dimen/elative_layout_margin_left_and_right"
+                android:paddingRight="@dimen/elative_layout_margin_left_and_right"
+                android:textColorHint="@color/white"
+                />
+            <EditText
+                android:id="@+id/lastname"
+                android:layout_width="match_parent"
+                android:text=""
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/elative_layout_margin_left_and_right"
+                android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+                android:layout_margin="@dimen/edit_text_margin_top"
+                android:hint="@string/lastname"
+                android:paddingLeft="@dimen/elative_layout_margin_left_and_right"
+                android:paddingRight="@dimen/elative_layout_margin_left_and_right"
+                android:textColorHint="@color/white"
+                />
+
+            <Button
+                android:id="@+id/bRegister"
+                android:layout_width="@dimen/button_width_2"
+                android:layout_height="@dimen/button_height"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="@string/crweate_account_button"
+                android:background="@drawable/button_style"
+                android:layout_gravity="center"
+                android:textSize="@dimen/button_text_size" />
+
+            <TextView
+                android:id="@+id/or"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/or_margin_top"
+                android:layout_gravity="center"
+                android:textSize="25sp"
+                android:textColor="@color/colorPrimary"
+                android:text="@string/or"
+                />
+
+            <ImageButton
+                android:id="@+id/tvJoinfacebook"
+                android:layout_width="wrap_content"
+                android:src="@drawable/sign_in_with_facebook2"
+                android:background="@color/colorPrimaryDark"
+                android:layout_marginTop="@dimen/or_margin_top"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:onClick="JoinFacebook"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

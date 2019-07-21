@@ -1,0 +1,622 @@
+<resources>
+    <string name="app_name">SRF</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="chooser">Send message...</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="how_to_select_titel">How to select a good titel</string>
+    <string name="how_to_select_question">how to select a good question </string>
+    <string name="view_comments_str">View comments</string>
+    <string name="title_activity_tapped">TappedActivity</string>
+    <string name="section_format">Hello world from section: %1$d</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+    <string name="comment_string">comment</string>
+
+    <string name="home_str">Home</string>
+    <string name="profile_str">Profile</string>
+    <string name="settings_str">Settings</string>
+
+    <string name="nav_about_us">About us</string>
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="select_fields">Select fields of your interest: </string>
+
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Home</item>
+        <item>Profile</item>
+        <item>Scholorship programs</item>
+        <item>Settings</item>
+
+
+    </string-array>
+
+    <string name="username">Username</string>
+    <string name="firstname">First name</string>
+    <string name="lastname">Last name</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="validemail">Please provide us a valid email address</string>
+    <string name="confirmpw">Confirm your password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="login">Sign in</string>
+    <string name="register">Dont have an account? sign up now</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="join_us">Join us - Sign up</string>
+    <string name="have_account">Already have an account</string>
+    <string name="interst">Field of interst </string>
+    <string name="schoarship">Scholarship</string>
+    <string name="Logintoyouraccount">Login to your account</string>
+    <string name="singinfb">Sign in with facebook</string>
+    <string name="forgotpw">I forgot my password</string>
+    <string name="noti">Notifications</string>
+    <string name="menu1">Logo story</string>
+    <string name="menu2">about SRF</string>
+    <string name="menu3">Contact us</string>
+    <string name="menu4">Webinars</string>
+    <string name="menu5">Log out</string>
+    <array name="fields_string_array">
+        <item>Engineering</item>
+        <item>Medicine</item>
+        <item>Computer science</item>
+        <item>Math</item>
+        <item>Chemistry</item>
+        <item>Physics</item>
+        <item>Social sciences</item>
+        <item>All</item>
+
+
+    </array>
+
+    <string name="logoStory">
+        The SRF logo features the Secretary bird (Sagittarius serpentarius), looking up high, by combining two elements;
+        an array of five crest feathers over a search icon portraying the head and break we draw this logo the inspiration
+        to aim high and the motivation to work with SRF members towards realizing tha academic and scientific potential
+        of Sudan.\nThe Secretary bird demonstrates valuable lessons for ambitious scientists and students in our beloved
+        Sudan:\n\t                - Writing is a significant scientific skill for communication and dissemination of knowledge the
+        crest feathers on the Secretary bird make it resemble a writer tucking quill pens behind his ears. \n\t-
+        The array of five feathers highlight the core academic values of integrity, freedom, quality, curiosity and innovation.
+        SRF emphasizes the importance of mastering these values. \n\t - The search icon symbolizes the deep attention to
+        details by a disciplined and inquisitive spirit in pursuit of knowledge. The Secretary bird is in constant search and
+        its attentional resources are focused on it; a Sudanese researches attentional resources focus at the questions they
+        seek answers for. \n\t             - Independence is a salient trait of the bird. it can bot be domesticated defies any such attempts.
+        Unbiased intellectual independence is a core quality of a successful scientist.\n\t              - The bird reflects our Sudanism. It
+        is free, independent, loyal, defiant and hard-working.
+    </string>
+    <string name="logo">SRF logo story</string>
+    <string name="announcements">Announcements</string>
+    <string name="announcement">Announcements</string>
+    <string name="luminary">Luminary of the week</string>
+    <string name="LogoStoryShort">The SRF logo features the Secretary bird (Sagittarius serpentarius ), looking up high, by combining two elements; an array of five crest feathers over a search icon portaying the head and beak. We draw from the logo the inspiration to aim high and the motivation to work with SRF members towards realizing the academic and scientific potential of Sudan.</string>
+    <string name="title_activity_announcements">Announcements</string>
+    <string name="title_activity_forget_password">ForgetPasswordActivity</string>
+    <string name="ForgetPassword">Forgot your password? No worries, fill-in the form below and we will send you instructions on how to reset your password</string>
+    <string name="title_activity_tapp">TappActivity</string>
+
+
+    <string name="rational">SRF addresses the absence of dedicated Sudanese platforms focusing on capacity building, knowledge sharing and research dissemination in a blended continuous education model. In this context we provide a common platform for interaction between Sudanese learners and researchers to establish and drive the momentum of research and education in Sudan. SRF serves as a bridge to link Sudanese undergraduates and postgraduates with the expertise and competence of Sudanese researchers worldwide</string>
+    <string name="our_vision">
+Equip young and budding Sudanese scientist to compete up to International standards by acquisition of core research competencies and academic soft skills</string>
+    <string name="our_mission">Expand the initiative by utilizing the Internet and social networking platforms to collect, disseminate and emphasize the Sudanese researchers footprint and participation in all fields of scientific research. Facilitate communication between generations of Sudanese researchers and scientists to ensure the continuity of the scientific mission and the transfer of knowledge, techniques and expertise within and into Sudan</string>
+    <string name="our_goals">SRF focuses on achieving the following:\n\t
+       1. Establish an index for Sudanese researcher all over the world and connect them\n\t
+       2. Establish Sudanese researches scientific footprint\n\t
+       3. Strengthen Sudanese researchers’ core qualities\n\t
+       4. Encourage Sudanese people to be more involved in research and development\n\t
+       5. Exchange knowledge and expertise\n\t
+       6. Share published scientific research papers, articles, essays, journals and links\n\t
+       7. Discuss experiences, issues and provide answers in an open and honest manner\n\t
+       8. Provide a platform for peer support and discussions</string>
+    <string name="our_strategy">
+        1.support research progress and outputs from Sudanese talent pool via:\n\t
+           >engagement in focused specialized collaborations among researchers through facilitating communication, joint publications and joint organizations of workshops and conferences inside and outside Sudan\n\t
+           >support the professional and personal development of junior researchers (via career development, research specific topics and scholarship and training programs and activities)\n\t
+           >ensure networking and joint collaboration between junior and senior researchers and academics as well as among senior researchers and academics\n\t
+        2.Expand the initiative scope to benefit a larger cohort of Sudanese students and researchers\n\t
+        3.Promote the collection and sharing of the members collective expertise by enhancing communication between members\n\t
+        4.Promote mentorship programs for scholars, researchers and students by senior members of the group and through procuring the expertise of reputable Sudanese professors and International professors\n\t
+        5.Help researchers with limited financial means to publish and disseminate good quality science\n\t
+        6.Instill the spirit of initiation, volunteering and proaction\n\t
+        7.Provide access to scientific material through building partnerships with reputable publishers\n\t
+        8.Provide soft skills and communication training by recruiting the expertise of pioneers in the field\n\t
+        9.Collaborate with other initiatives in the field to exchange resources and ideas towards achieving our goals\n\t
+        10.Hosting seminars, workshops, symposiums, etc.. Online and off-line\n\t
+        11.Mailing lists (specialized and public)\n\t
+        12.Book library\n\t
+        13.Finally, collaborate with MOOCs such as Coursera to host highly professional Sudanese lecturers/universities\n\t
+    </string>
+    <string name="hint_new_question_subject">Write your question titel </string>
+    <string name="hint_new_question_content">Write your question content</string>
+    <string name="title_activity_select_question">SelectQuestionActivity</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string-array name="Countries">
+        <item>Your current location</item>
+        <item>Argentina</item>
+        <item>Australia</item>
+        <item>Brazil</item>
+        <item>Canada</item>
+        <item>China</item>
+        <item>Eygpt</item>
+        <item>France</item>
+        <item>Japan</item>
+        <item>New zealand</item>
+        <item>Palestine</item>
+        <item>Saudi arabia</item>
+        <item>Sudan</item>
+        <item>United kingdom</item>
+        <item>United states</item>
+    </string-array>
+    <string-array name="Years">
+        <item>2003</item>
+        <item>2002</item>
+        <item>2001</item>
+        <item>2000</item>
+        <item>1999</item>
+        <item>1998</item>
+        <item>1997</item>
+        <item>1996</item>
+        <item>1995</item>
+        <item>1994</item>
+        <item>1993</item>
+        <item>1992</item>
+        <item>1991</item>
+        <item>1990</item>
+        <item>1989</item>
+        <item>1988</item>
+        <item>1987</item>
+        <item>1986</item>
+        <item>1985</item>
+        <item>1984</item>
+        <item>1983</item>
+        <item>1982</item>
+        <item>1981</item>
+        <item>1980</item>
+        <item>1979</item>
+        <item>1978</item>
+        <item>1977</item>
+        <item>1976</item>
+        <item>1975</item>
+        <item>1974</item>
+        <item>1973</item>
+        <item>1972</item>
+        <item>1971</item>
+        <item>1970</item>
+        <item>1969</item>
+        <item>1968</item>
+        <item>1967</item>
+        <item>1966</item>
+        <item>1965</item>
+        <item>1964</item>
+        <item>1963</item>
+        <item>1962</item>
+        <item>1961</item>
+        <item>1960</item>
+        <item>1959</item>
+        <item>1958</item>
+        <item>1957</item>
+        <item>1956</item>
+        <item>1955</item>
+        <item>1954</item>
+        <item>1953</item>
+        <item>1952</item>
+        <item>1951</item>
+        <item>1950</item>
+        <item>1949</item>
+        <item>1948</item>
+        <item>1947</item>
+        <item>1946</item>
+        <item>1945</item>
+        <item>1944</item>
+        <item>1943</item>
+        <item>1942</item>
+        <item>1941</item>
+        <item>1940</item>
+        <item>1939</item>
+        <item>1938</item>
+        <item>1937</item>
+        <item>1936</item>
+        <item>1935</item>
+        <item>1934</item>
+        <item>1933</item>
+        <item>1932</item>
+        <item>1931</item>
+        <item>1930</item>
+        <item>1929</item>
+        <item>1928</item>
+        <item>1927</item>
+        <item>1926</item>
+        <item>1925</item>
+        <item>1924</item>
+        <item>1923</item>
+        <item>1922</item>
+        <item>1921</item>
+        <item>1920</item>
+        <item>1919</item>
+        <item>1918</item>
+        <item>1917</item>
+        <item>1916</item>
+        <item>1915</item>
+        <item>1914</item>
+        <item>1913</item>
+        <item>1912</item>
+        <item>1911</item>
+        <item>1910</item>
+        <item>1909</item>
+        <item>1908</item>
+        <item>1907</item>
+        <item>1906</item>
+        <item>1905</item>
+        <item>1904</item>
+        <item>1903</item>
+        <item>1902</item>
+        <item>1901</item>
+        <item>1900</item>
+    </string-array>
+    <string-array name="Days">
+        <item>Day</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+    <string-array name="Months">
+        <item>Month</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="Qualifications">
+        <item>Highest Qqualification degree</item>
+        <item>Primary school</item>
+        <item>Intermediate school</item>
+        <item>Secondary school</item>
+        <item>Bachelors degree</item>
+        <item>Master degree</item>
+        <item>Phd</item>
+    </string-array>
+    <string name="title_activity_profile2">Profile2Activity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="deactivate_account">
+        SRF is sad to see you go but respects your decision Take 5 minutes to respond to this membership
+        termination interview from in order to help us improve SRF. \n\n<b>Please let us know why you want to deactivate your account:</b>
+    </string>
+    <string name="deactivate_account2">
+        After clicking the deactivate buttons, we will send you an email with special link to confirm deactivating your account. \n\n
+        Once you click on the link on the email your email will be deactivated and you will be no longer be able to login to SRI. \n\n
+        Make sure your email is updated and you have access to your email inbox. \n\n
+        You can activate your account within 30 days.
+    </string>
+    <string name="title_activity_other_person_profile">OtherPersonProfileActivity</string>
+    <string name="instruction_sent">Your instruction was sent to your email</string>
+
+    <string name="slogan1">Let Sudanese researcher and scientist communicate through geographical barriers</string>
+    <string name="slogan2">Let them collaborate in the transfer of knowledge, techniques and expertise within and into Sudan</string>
+    <string name="slogan3">Let the young and budding Sudanese scientists attain international excellence</string>
+    <string name="logo_status">SRF status</string>
+    <string name="about_luminary">About luminaries</string>
+    <string name="view_more_luminary">View more</string>
+    <string name="nominate_luminary">Nominate luminary</string>
+
+    <string name="new_question">new question</string>
+    <string name="new_post">new member post</string>
+    <string name="my_questions">my questions</string>
+    <string name="my_posts">my posts</string>
+    <string name="log_out">Log out</string>
+    <string name="log_out_assurance">are you sure you want to log out?</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="add_comment">add your comment here ...</string>
+    <string name="announcement_title">The announcment title</string>
+    <string name="announcements_time">this should be the time stamp</string>
+    <string name="image_announcements">user_picture</string>
+    <string name="annoncements_content">This is the announcment to be displayed</string>
+    <string name="read_more">...Read more</string>
+    <string name="rational_title">Rational</string>
+    <string name="our_vision_title">Vision</string>
+    <string name="our_mission_title">Mission</string>
+    <string name="our_goals_title">Goals</string>
+    <string name="our_strategy_title">Strategy</string>
+    <string name="complete_profile">Complete your profile</string>
+    <string name="hint_proflie_name">Profile name</string>
+    <string name="button_update_profile">Update profile</string>
+    <string name="email_hint">Email</string>
+    <string name="or">or</string>
+    <string name="post_button">Post</string>
+    <string name="select_tag">Select question tag</string>
+    <string name="tag_physics">Physics</string>
+    <string name="tag_psycchology">Psychology</string>
+    <string name="tag_chimestry">Chemistry</string>
+    <string name="tag_history">History</string>
+    <string name="tag_language">Languages</string>
+    <string name="ask_button">ASk</string>
+    <string name="post_title_hint">Write your post title</string>
+    <string name="post_content_hint">Write your post content</string>
+    <string name="signup_title">Register a new account</string>
+    <string name="crweate_account_button">Create my account</string>
+    <string name="answer_content">This is the member post</string>
+    <string name="update_bio">Updating bio</string>
+    <string name="bio">Bio</string>
+    <string name="update">Update</string>
+    <string name="bio_letters_number">0/500</string>
+    <string name="cancel">Cancel</string>
+    <string name="change_passowrd">Change password</string>
+    <string name="current_password">Current password</string>
+    <string name="new_password">New password</string>
+    <string name="update_my_passowrd">Update my password</string>
+    <string name="post_title">The member\'s post title</string>
+    <string name="post_time">this should be the time stamp</string>
+    <string name="post_content">This is the member post</string>
+    <string name="get_in_touch">Get in touch</string>
+    <string name="subject">Subject</string>
+    <string name="content">Content</string>
+    <string name="select_contact">Select contact channel</string>
+    <string name="general_inquires">General inquires</string>
+    <string name="becpmr_partner">Become a SRF partner</string>
+    <string name="relation_team">Relations team</string>
+    <string name="tech_team">Tech team</string>
+    <string name="mentoring">Mentoring</string>
+    <string name="submit">Submit</string>
+    <string name="send_message">Send message</string>
+    <string name="follow">Follow</string>
+    <string name="level_1">Level 1</string>
+    <string name="reputation_points">0.00</string>
+    <string name="reputation">Reputation</string>
+    <string name="last_seen">Last seen</string>
+    <string name="last_seen_">May 27, 2016</string>
+    <string name="following">Following</string>
+    <string name="followers">Followers</string>
+    <string name="content_profile">Content</string>
+    <string name="bio_other_profile">Bio</string>
+    <string name="omer_ali">Doctor Omer Ali \nDoctor of psychology in university of khartoum</string>
+    <string name="current_reputation">Current reputation</string>
+    <string name="votes_limit">Daily votes limit</string>
+    <string name="votes1">1 votes</string>
+    <string name="current_points">Current points</string>
+    <string name="next_level">Next level</string>
+    <string name="level_2">Level 2</string>
+    <string name="points_to_next_level">Points to next level</string>
+    <string name="publications">Publications</string>
+    <string name="copyrights">2015 - 2018 @ All rights reserved</string>
+
+
+    <string name="luminaries_link">https://s-rf.org/pages/luminaries</string>
+    <string name="twitter_link">https://twitter.com/SudanResearcher</string>
+    <string name="facebook_link">https://www.facebook.com/groups/SudanResearch.net</string>
+    <string name="youtube_link">http://www.youtube.com/c/SudaneseResearchersFoundation</string>
+    <string name="deactive_account">Deactivate your account</string>
+    <string name="start_deactivating">Start deactivating process</string>
+    <string name="remove_language">Remove this language?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="laitoo">Laitooo san</string>
+    <string name="followers3">Followers 3</string>
+    <string name="following9">Following 9</string>
+    <string name="edit_profile">Edit profile</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="edit">Edit</string>
+    <string name="reset_password">Reset your account\'s password</string>
+    <string name="reset">Reset password</string>
+    <string name="members">Members :</string>
+    <string name="publication_">Publications :</string>
+    <string name="questions">Questions :</string>
+    <string name="logo_story">SRF logo story</string>
+    <string name="latest_announcement">Latest announcements</string>
+    <string name="view_more">View more</string>
+    <string name="altigani_almahi">Al Tigani Mohammed Al Mahi</string>
+    <string name="professor_of_psychology">Professor of psychiatry</string>
+    <string name="altigabi_bio">Kitchener medical school until 1935 institute of psychiatry , London 1947</string>
+    <string name="question_title">The question title</string>
+    <string name="member_post_title">The member\'s post title</string>
+    <string name="member_post_time">this should be the time stamp</string>
+    <string name="member_post_content">This is the member post</string>
+    <string name="write_comment">Write comment</string>
+    <string name="number_of_views">NO. of views</string>
+    <string name="fill">Fill in the following form with information about your candidate</string>
+    <string name="speciality">Specialty</string>
+    <string name="contribution">Contribution</string>
+    <string name="please_provide_limk">Please provide a link (online videos/audios/newsarticle/journal...etc)</string>
+    <string name="short_biio">Short bio</string>
+    <string name="upload_photo">Upload luminary photo</string>
+    <string name="ahmed">Ahmed Mohammed commented In your post</string>
+    <string name="highest_qualification">Highest qualification attained</string>
+    <string name="sudanese_school">Sudanese secondary school</string>
+    <string name="current_location">Current location</string>
+    <string name="sudan">Sudan</string>
+    <string name="home_town">Home town</string>
+    <string name="khartoum">Khartoum</string>
+    <string name="website">Website</string>
+    <string name="examble_website">www.examble.com</string>
+    <string name="occupation">Occupation</string>
+    <string name="student">Student</string>
+    <string name="languages">Languages</string>
+    <string name="research_fields">Research fields</string>
+    <string name="my_bio">ohayou gozaimasu watashi wa laitooo, desu daigovo desu ka?</string>
+    <string name="hint_languages">Add language</string>
+    <string name="add">Add</string>
+    <string name="add_research_fields">Add research field</string>
+    <string name="publication_title">Publication title</string>
+    <string name="publication_author">Publication authors</string>
+    <string name="publication_publisher">Publication publisher</string>
+    <string name="publication_date">Publication date</string>
+    <string name="arabic">Arabic</string>
+    <string name="update_email">Updating email</string>
+    <string name="video_name">Video name</string>
+    <string name="video_date">Video date</string>
+    <string name="video_information">Video information</string>
+    <string name="question_titlr">The question title</string>
+    <string name="question_name">this should be the user name and the time stamp</string>
+    <string name="question_time">this should be the user time</string>
+    <string name="question_content">This is the question</string>
+    <string name="write_an_answer">Write an Answer</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="add_comment_here">add your comment here ...</string>
+    <string name="addd_comment">Add comment</string>
+    <string name="question_contents">question_content</string>
+    <string name="add_comment_hint">add your comment here ...</string>
+    <string name="answers">Answers</string>
+    <string name="add_answer">Add your answer...</string>
+    <string name="add_answers">Add answer</string>
+    <string name="title_activity_select_webinar">SelectWebinarActivity</string>
+    <string name="addComment">Add comment</string>
+    
+
+    
+    <string name="title_activity_aboutsctivity">about</string>
+    <string name="are_you_researcher">Are you a qualified researcher? Do you have an interest in being one of the group of Sudanese researcher? Join Now!</string>
+    <string name="read_more_ann">read more</string>
+    <string name="menu_webinar">Webinars</string>
+    <string name="menu_announcements">Announcements</string>
+    <string name="menu_about">About</string>
+    <string name="menu_srf">SRF</string>
+    <string name="menu_alba3ati">alba3ati</string>
+    <string name="menu_logo">Logo story</string>
+    <string name="menu_effective">How to write an effective story</string>
+    <string name="menu_reputation">Reputation</string>
+    <string name="menu_luminaries">Luminaries</string>
+    <string name="menu_log_out">Log out</string>
+    <string name="menu_contact">Contact us</string>
+
+    <string-array name="tags">
+        <item>Tag</item>
+        <item>Engineering</item>
+        <item>Medicine</item>
+        <item>Computer science</item>
+        <item>Math</item>
+        <item>Chemistry</item>
+        <item>Physics</item>
+        <item>Social sciences</item>
+        <item>Languages</item>
+    </string-array>
+</resources>

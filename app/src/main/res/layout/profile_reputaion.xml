@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/layout_style"
+    android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+    android:layout_marginRight="@dimen/elative_layout_margin_left_and_right"
+    android:layout_marginTop="@dimen/elative_layout_margin_left_and_right"
+    android:paddingBottom="@dimen/elative_layout_margin_left_and_right"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <Button
+        android:id="@+id/UserLevel"
+        android:layout_width="@dimen/button_width_0"
+        android:layout_height="@dimen/button_height"
+        android:background="@drawable/button_style"
+        android:text="@string/level_1"
+        android:layout_marginTop="@dimen/button_margin_top"
+        android:layout_centerHorizontal="true"
+        android:clickable="false"
+        android:textSize="@dimen/button_text_size"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_remote"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/profile_icon"
+        android:layout_below="@+id/UserLevel"
+        android:text="@string/reputation"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/important_title_text_size"
+        android:layout_marginTop="@dimen/title_margin_top"
+        android:layout_marginRight="@dimen/title_margin_top"
+        android:layout_alignLeft="@+id/UserLevel"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10.00"
+        android:id="@+id/profile_reputation"
+        android:layout_marginTop="@dimen/title_margin_top"
+        android:textSize="@dimen/important_title_text_size"
+        android:textColor="@color/white"
+        android:layout_toRightOf="@+id/profile_icon"
+        android:layout_below="@+id/UserLevel"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/proR2T1"
+        android:textColor="@color/white"
+        android:textSize="@dimen/title_text_size_2"
+        android:layout_below="@+id/profile_reputation"
+        android:text="@string/last_seen"
+        android:layout_marginTop="@dimen/elative_layout_margin_left_and_right"
+        android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/elative_layout_margin_left_and_right"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/title_text_size_2"
+        android:gravity="center"
+        android:id="@+id/lastseen"
+        android:layout_alignTop="@+id/proR2T1"
+        android:text="@string/last_seen_"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/proR2T2"
+        android:textColor="@color/white"
+        android:layout_below="@+id/proR2T1"
+        android:textSize="@dimen/title_text_size_2"
+        android:text="@string/following"
+        android:layout_marginTop="@dimen/elative_layout_margin_left_and_right"
+        android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignLeft="@+id/lastseen"
+        android:gravity="center"
+        android:id="@+id/following"
+        android:layout_marginRight="@dimen/elative_layout_margin_left_and_right"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/title_text_size_2"
+        android:layout_alignTop="@+id/proR2T2"
+        android:text="14"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/proR2T3"
+        android:layout_below="@+id/proR2T2"
+        android:textColor="@color/white"
+        android:textSize="@dimen/title_text_size_2"
+        android:text="@string/followers"
+        android:layout_marginTop="@dimen/elative_layout_margin_left_and_right"
+        android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignLeft="@+id/lastseen"
+        android:gravity="center"
+        android:id="@+id/followers"
+        android:layout_marginRight="@dimen/elative_layout_margin_left_and_right"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/title_text_size_2"
+        android:layout_alignTop="@+id/proR2T3"
+        android:text="25"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/proR2T4"
+        android:layout_below="@+id/proR2T3"
+        android:textColor="@color/white"
+        android:textSize="@dimen/title_text_size_2"
+        android:text="@string/content_profile"
+        android:layout_marginTop="@dimen/elative_layout_margin_left_and_right"
+        android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignLeft="@+id/lastseen"
+        android:gravity="center"
+        android:id="@+id/contents"
+        android:layout_marginRight="@dimen/elative_layout_margin_left_and_right"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/title_text_size_2"
+        android:layout_alignTop="@+id/proR2T4"
+        android:text="68"/>
+
+    <ImageButton
+        android:layout_width="@dimen/about_button_width_and_height"
+        android:layout_height="@dimen/about_button_width_and_height"
+        android:id="@+id/editProfileBtn1"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignTop="@+id/UserLevel"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="@dimen/elative_layout_margin_left_and_right"
+        android:src="@android:drawable/ic_menu_edit" />
+
+</RelativeLayout>

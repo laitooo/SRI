@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:appcompat="http://schemas.android.com/tools">
+
+
+
+    <item
+        android:id="@+id/noti"
+        android:title="Notifications"
+        android:orderInCategory="50"
+        app:showAsAction="ifRoom"
+        android:tint="@color/colorPrimary"
+        android:icon="@drawable/icon_notification"
+        />
+
+    <item
+        android:id="@+id/mySearchView"
+        android:title="Search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always"
+        android:tint="@color/colorPrimary"
+        android:icon="@android:drawable/ic_menu_search"/>
+
+
+</menu>
+
+<!--
+Settings:
+Notificarion:
+1- Notifications
+2- Announcements
+3- alba3ati
+
+
+Login Activity:
+Background for Login Activity or just making the logo bigger
+change the Logo in the Logging Activity                                                             done
+Sign in Button Size Bigger                                                                          done
+I forgot my password  place under Password Right and size smaller                                   done
+facebook from screenshot hisham sent                                                                done
+Edit Password visible                                                                               semi-done
+Logo Value words
+Sign up now instead of register now                                                                 done
+
+
+Sign up:
+Spelling errors                                                                                     done
+Small letter                                                                                        done
+Button Create My Account text size bigger                                                           done
+Or margin bottom smaller                                                                            done
+
+
+Forgot your password :
+button text size                                                                                    done
+your instruction was sent to email new screen                                                       done
+button text (Reset password)                                                                        done
+text justifications
+
+
+Homesceen:
+delete text and add the logo                                                                        done
+change the action bar color to white                                                                done
+chage the icons
+delete logo in srf status and add "Logo status"                                                     done
+
+
+delete the profile box and add the sliding text that hisham will send to you                        done
+with sliding animation                                                                              done
+
+
+Homescreen2 :
+change finish to read more                                                                          done
+
+
+homescreen3 :
+latest announcements and recycler inside box                                                        done
+recycler margin left and right                                                                      done
+recycler no line between announcements                                                              done
+
+
+homescreen4 :
+add read more text to expand the announcements                                                      done
+and read less                                                                                       done
+View passed announcements button sends you to Activity Announcements                                done
+luminary margin left and right                                                                      done
+luminay in one box                                                                                  done
+view more in button                                                                                 done
+add about luminaries button that sends you to about                                                 done
+arrange them                                                                                        done
+first view then about last nominate                                                                 done
+button text color gray for all the buttons                                                          done
+
+
+New Nominate:
+title nominate luminary                                                                             done
+short bio 2 words                                                                                   done
+edit text big height                                                                                done
+Update luminary photo text button                                                                   done
+
+
+
+member spaces:
+fab :
+new space post                                                                                      done
+my posts                                                                                            done
+new question                                                                                        done
+my questiomns                                                                                       done
+the arrange depends on where you are                                                                done
+
+member post:
+fab : new icon , color, and icon size
+\\filteration icon
+
+questions:
+questions and answers have the same votes format                                                    done
+users have the abillity to formating the questions and answers
+
+notifcation:
+icon size bigger                                                                                    undone
+
+drawer:
+forrowers and followers are in the same line                                                        done
+add the reputation in the drawer                                                                    done
+\\ looking for solo learn app tags style                                                            done
+contact us capital letters                                                                          done
+dont need to make about 2 times                                                                     done
+contact us and log out in new menu                                                                  done
+icons
+about is  collapsible
+
+announcements:
+read less                                                                                           done
+in notification                                                                                     done
+announcements : delete latest announcements and add like wikipedia .                                done
+
+
+webinars:
+lecture : title
+about ...:summary
+date:beside the title                                                                               undone
+
+webinar select youtube frame
+setting
+
+
+
+-->

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+    android:layout_marginRight="@dimen/elative_layout_margin_left_and_right"
+    android:layout_marginTop="@dimen/elative_layout_margin_left_and_right"
+    android:paddingBottom="@dimen/elative_layout_margin_left_and_right"
+    android:background="@drawable/layout_style">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/update_bio"
+        android:textSize="@dimen/big_title_text_size"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/elative_layout_margin_left_and_right"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/textView17"
+        android:layout_alignParentTop="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bio"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:id="@+id/textView18"
+        android:layout_below="@+id/textView17"
+        android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+        android:layout_marginTop="@dimen/elative_layout_margin_left_and_right"/>
+
+    <EditText
+        android:id="@+id/edit_bio"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/big_edit_text_height"
+        android:background="@drawable/layout_resource_reverse"
+        android:lines="10"
+        android:layout_marginTop="@dimen/elative_layout_margin_left_and_right"
+        android:layout_below="@+id/textView18"
+        android:paddingLeft="@dimen/elative_layout_margin_left_and_right"
+        android:paddingRight="@dimen/elative_layout_margin_left_and_right"
+        android:textColor="@color/white"
+        android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+        android:layout_marginRight="@dimen/elative_layout_margin_left_and_right" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/UpdateBioLimit"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:id="@+id/updateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="@string/update"
+            android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+            android:background="@drawable/button_style"
+            android:layout_marginTop="@dimen/elative_layout_margin_left_and_right" />
+
+        <Button
+            android:id="@+id/cancelButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="@string/cancel"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="@dimen/elative_layout_margin_left_and_right"
+            android:background="@drawable/button_style"
+            android:layout_marginTop="16dp"
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bio_letters_number"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/UpdateBioLimit"
+        android:layout_below="@+id/edit_bio"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

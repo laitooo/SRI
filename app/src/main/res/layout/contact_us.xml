@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:paddingLeft="@dimen/elative_layout_margin_left_and_right"
+    android:paddingRight="@dimen/elative_layout_margin_left_and_right"
+    android:orientation="vertical">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/elative_layout_margin_left_and_right"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/logo_2_size"
+                android:layout_height="@dimen/logo_2_size"
+                android:src="@drawable/logo"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:id="@+id/t"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/title_margin_top"
+                android:layout_gravity="center"
+                android:textSize="@dimen/important_title_text_size"
+                android:textColor="@color/colorPrimary"
+                android:text="@string/get_in_touch"/>
+
+            <EditText
+                android:id="@+id/name"
+                android:text=""
+                android:textColorHint="@color/white"
+                android:layout_width="match_parent"
+                android:paddingLeft="@dimen/elative_layout_margin_left_and_right"
+                android:paddingRight="@dimen/elative_layout_margin_left_and_right"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/edit_text_margin"
+                android:hint="@string/name"/>
+
+            <EditText
+                android:id="@+id/subject"
+                android:hint="@string/subject"
+                android:layout_width="match_parent"
+                android:paddingLeft="@dimen/elative_layout_margin_left_and_right"
+                android:paddingRight="@dimen/elative_layout_margin_left_and_right"
+                android:textColorHint="@color/white"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/edit_text_margin"
+                />
+
+            <EditText
+                android:id="@+id/email"
+                android:hint="@string/email"
+                android:textColorHint="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/elative_layout_margin_left_and_right"
+                android:paddingRight="@dimen/elative_layout_margin_left_and_right"
+                android:layout_margin="@dimen/edit_text_margin"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:hint="@string/content"
+                android:textColorHint="@color/white"
+                android:layout_height="@dimen/big_edit_text_height"
+                android:layout_margin="@dimen/edit_text_margin"
+                android:paddingLeft="@dimen/elative_layout_margin_left_and_right"
+                android:paddingRight="@dimen/elative_layout_margin_left_and_right"                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/title_text_size_2"
+                android:text="@string/select_contact"
+                android:id="@+id/textView"
+                android:layout_marginTop="@dimen/elative_layout_margin_left_and_right"
+                android:textColor="@color/white" />
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <CheckBox
+                    android:id="@+id/checkBox1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/general_inquires"
+                    android:textSize="@dimen/title_text_size"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="10dp"
+                    android:checked="false" />
+
+                <CheckBox
+                    android:id="@+id/checkBox2"
+                    android:layout_width="match_parent"
+                    android:textSize="@dimen/title_text_size"
+                    android:layout_height="wrap_content"
+                    android:text="@string/becpmr_partner"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="10dp"
+                    android:checked="false" />
+
+                <CheckBox
+                    android:id="@+id/checkBox3"
+                    android:layout_width="match_parent"
+                    android:textSize="@dimen/title_text_size"
+                    android:layout_height="wrap_content"
+                    android:text="@string/relation_team"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="10dp"
+                    android:checked="false" />
+
+                <CheckBox
+                    android:id="@+id/checkBox4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tech_team"
+                    android:checked="false"
+                    android:textSize="@dimen/title_text_size"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/white" />
+
+                <CheckBox
+                    android:id="@+id/checkBox5"
+                    android:layout_width="match_parent"
+                    android:checked="false"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mentoring"
+                    android:textSize="@dimen/title_text_size"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/white"/>
+
+                <Button
+                    android:id="@+id/submit"
+                    android:layout_width="@dimen/button_width"
+                    android:layout_height="@dimen/button_height"
+                    android:layout_gravity="center"
+                    android:text="@string/submit"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:background="@drawable/button_style"
+                    android:layout_marginTop="@dimen/elative_layout_margin_left_and_right"
+                    android:textSize="@dimen/button_text_size"
+                    />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

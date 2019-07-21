@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layout_style"
+    android:weightSum="1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/deactive_account"
+                android:textSize="@dimen/important_title_text_size"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/textView19"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+                android:layout_marginTop="@dimen/elative_layout_margin_left_and_right"
+                android:textColor="@color/white"
+                android:textSize="@dimen/title_text_size_2"
+                android:text="@string/deactivate_account"
+                android:id="@+id/textView21" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/big_edit_text_height"
+                android:background="@drawable/layout_resource_reverse"
+                android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+                android:layout_marginRight="@dimen/elative_layout_margin_left_and_right"
+                android:paddingLeft="@dimen/elative_layout_margin_left_and_right"
+                android:paddingRight="@dimen/elative_layout_margin_left_and_right"
+                android:id="@+id/editText2"
+                android:layout_weight="0.28" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/deactivate_account2"
+                android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+                android:layout_marginTop="@dimen/elative_layout_margin_left_and_right"
+                android:textColor="@color/white"
+                android:textSize="@dimen/title_text_size_2"
+                android:id="@+id/textView22" />
+
+            <Button
+                android:id="@+id/updateEmailBtn"
+                android:layout_width="@dimen/button_width_2"
+                android:layout_height="@dimen/button_height_2"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/button_text_size"
+                android:text="@string/start_deactivating"
+                android:background="@drawable/button_style"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/elative_layout_margin_left_and_right" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

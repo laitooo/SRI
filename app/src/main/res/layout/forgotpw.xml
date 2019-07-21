@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="@dimen/logo_2_size"
+        android:layout_height="@dimen/logo_2_size"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/logo_margin_top"
+        android:src="@drawable/logo"
+
+        />
+
+    <TextView
+        android:id="@+id/texth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/elative_layout_margin_left_and_right"
+        android:layout_gravity="center"
+        android:textSize="@dimen/important_title_text_size"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/reset_password"
+        />
+
+    <TextView
+        android:id="@+id/textb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/elative_layout_margin_left_and_right"
+        android:layout_gravity="center"
+        android:textSize="@dimen/title_text_size_2"
+        android:textColor="@color/white"
+        android:text="@string/ForgetPassword"
+        />
+
+
+
+    <EditText
+        android:id="@+id/instru_Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/elative_layout_margin_left_and_right"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="@dimen/elative_layout_margin_left_and_right"
+        android:paddingRight="@dimen/elative_layout_margin_left_and_right"
+        android:hint="@string/email"
+        android:textColorHint="@color/grey"/>
+
+
+    <Button
+        android:id="@+id/newPosBtn"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:text="@string/reset"
+        android:onClick="send_reset_password"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@drawable/button_style"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/button_margin_top"
+        android:textSize="@dimen/button_text_size" />
+
+
+
+</LinearLayout>

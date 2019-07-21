@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginTop="@dimen/elative_layout_margin_left_and_right"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:paddingBottom="@dimen/elative_layout_margin_left_and_right"
+    android:background="@drawable/layout_resource_reverse"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/answer_image"
+        android:layout_width="@dimen/feed_item_profile_pic"
+        android:layout_height="@dimen/feed_item_profile_pic"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"/>
+
+
+    <TextView
+        android:id="@+id/answer_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/title_text_size"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:text="The member's post title"
+        android:layout_alignTop="@+id/answer_image"
+        android:layout_toRightOf="@+id/answer_image"
+        android:layout_toLeftOf="@+id/number_votes" />
+
+    <TextView
+        android:id="@+id/answer_time"
+        android:layout_alignLeft="@+id/answer_name"
+        android:layout_width="match_parent"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/normal_text_Size"
+        android:text="this should be the time stamp"
+        android:layout_below="@+id/answer_name"
+        android:layout_toRightOf="@+id/answer_image"
+        android:layout_toLeftOf="@+id/number_votes" />
+
+    <TextView
+        android:id="@+id/answer_content"
+        android:layout_width="fill_parent"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/title_text_size"
+        android:paddingBottom="@dimen/content_padding_bottom"
+        android:paddingLeft="@dimen/content_padding_left"
+        android:paddingRight="@dimen/content_padding_right"
+        android:paddingTop="@dimen/content_padding_top"
+        android:text="@string/answer_content"
+        android:layout_below="@+id/minus_vote"
+        android:layout_toLeftOf="@+id/votes_answer_number"
+        android:layout_toStartOf="@+id/votes_answer_number" />
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/plus_vote"
+        android:layout_marginRight="10dp"
+        android:background="@color/no_color"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/vote3"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginRight="10dp"
+        android:text="1000"
+        android:textSize="13dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:id="@+id/number_votes"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@+id/plus_vote"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/minus_vote"
+        android:layout_marginRight="10dp"
+        android:background="@color/no_color"
+        android:src="@drawable/vote4"
+        android:layout_below="@+id/number_votes"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/answer_content"
+        android:id="@+id/recycler_answers_comments"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/recycler_answers_comments">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/edit_text_height"
+            android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+            android:layout_marginRight="@dimen/elative_layout_margin_left_and_right"
+            android:layout_marginTop="@dimen/elative_layout_margin_left_and_right"
+            android:paddingLeft="@dimen/elative_layout_margin_left_and_right"
+            android:paddingRight="@dimen/elative_layout_margin_left_and_right"
+            android:lines="20"
+            android:hint="Reply to this answer"
+            android:background="@drawable/layout_resource_reverse"
+            android:textSize="@dimen/edit_text_text_size"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:id="@+id/new_comment"/>
+
+        <ImageButton
+            android:id="@+id/send_comment"
+            android:layout_width="@dimen/button_height"
+            android:layout_height="@dimen/button_height"
+            android:background="@drawable/button_style"
+            android:text="@string/addd_comment"
+            android:layout_marginRight="10dp"
+            android:src="@android:drawable/ic_menu_send"
+            android:layout_marginTop="@dimen/elative_layout_margin_left_and_right"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

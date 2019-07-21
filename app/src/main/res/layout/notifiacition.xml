@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/gh">
+
+        <ImageView
+            android:paddingTop="@dimen/notification_picture_padding"
+            android:paddingLeft="@dimen/notification_picture_padding"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/notImage"
+            android:src="@drawable/logo"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/elative_layout_margin_left_and_right"
+            android:paddingLeft="@dimen/elative_layout_margin_left_and_right"
+            android:paddingRight="@dimen/elative_layout_margin_left_and_right"
+            android:layout_toRightOf="@+id/notImage"
+            android:id="@+id/notName"
+            android:textSize="@dimen/title_text_size_2"
+            android:layout_alignBottom="@+id/notImage"
+            android:layout_alignTop="@+id/notImage"
+            android:text="@string/ahmed"
+            android:textColor="@color/white"
+            />
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/empty_line_height"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/gh"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>

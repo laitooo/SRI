@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+    android:layout_marginRight="@dimen/elative_layout_margin_left_and_right"
+    android:layout_marginTop="@dimen/elative_layout_margin_left_and_right"
+    android:paddingBottom="@dimen/elative_layout_margin_left_and_right"
+    android:layout_height="wrap_content"
+    android:background="@drawable/layout_style">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Updating Information"
+        android:textSize="@dimen/important_title_text_size"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/textView19"
+        android:layout_gravity="center_horizontal" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+        android:layout_marginRight="@dimen/elative_layout_margin_left_and_right"
+        android:paddingLeft="@dimen/elative_layout_margin_left_and_right"
+        android:paddingRight="@dimen/elative_layout_margin_left_and_right"
+        android:layout_marginTop="@dimen/elative_layout_margin_left_and_right"
+        android:textColor="@color/white"
+        android:id="@+id/degree" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+        android:layout_marginRight="@dimen/elative_layout_margin_left_and_right"
+        android:paddingLeft="@dimen/elative_layout_margin_left_and_right"
+        android:paddingRight="@dimen/elative_layout_margin_left_and_right"
+        android:layout_marginTop="@dimen/elative_layout_margin_left_and_right"
+        android:textColor="@color/white"
+        android:id="@+id/country" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+        android:layout_marginRight="@dimen/elative_layout_margin_left_and_right"
+        android:paddingLeft="@dimen/elative_layout_margin_left_and_right"
+        android:paddingRight="@dimen/elative_layout_margin_left_and_right"
+        android:layout_marginTop="@dimen/elative_layout_margin_left_and_right"
+        android:hint="City"
+        android:textColorHint="#cccccc"
+        android:textColor="@color/white"
+        android:id="@+id/city" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+        android:layout_marginRight="@dimen/elative_layout_margin_left_and_right"
+        android:paddingLeft="@dimen/elative_layout_margin_left_and_right"
+        android:paddingRight="@dimen/elative_layout_margin_left_and_right"
+        android:layout_marginTop="@dimen/elative_layout_margin_left_and_right"
+        android:hint="Website"
+        android:textColorHint="#cccccc"
+        android:inputType="textWebEditText"
+        android:textColor="@color/white"
+        android:id="@+id/website" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+        android:layout_marginRight="@dimen/elative_layout_margin_left_and_right"
+        android:paddingLeft="@dimen/elative_layout_margin_left_and_right"
+        android:paddingRight="@dimen/elative_layout_margin_left_and_right"
+        android:layout_marginTop="@dimen/elative_layout_margin_left_and_right"
+        android:hint="Occupation"
+        android:textColorHint="#cccccc"
+        android:textColor="@color/white"
+        android:id="@+id/job" />
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/edit_button"
+            android:layout_width="@dimen/button_width_3"
+            android:layout_height="@dimen/button_height"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Update"
+            android:textSize="@dimen/button_text_size"
+            android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+            android:background="@drawable/button_style"
+            android:layout_marginTop="@dimen/elative_layout_margin_left_and_right" />
+
+        <Button
+            android:id="@+id/cancel_button"
+            android:layout_width="@dimen/button_width_3"
+            android:layout_height="@dimen/button_height"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:text="@string/cancel"
+            android:textSize="@dimen/button_text_size"
+            android:layout_marginRight="@dimen/elative_layout_margin_left_and_right"
+            android:background="@drawable/button_style"
+            android:layout_marginTop="@dimen/elative_layout_margin_left_and_right" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+    <!--
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Enter your Bio"
+                    android:textColor="@color/link"
+                    android:singleLine="false"
+                    android:inputType="textCapCharacters|textMultiLine"
+                    android:maxLength="2000"
+                    android:isScrollContainer="true"
+                    android:maxLines="4"
+                    android:paddingTop="16dp"
+                    android:layout_below="@+id/editName"
+                    android:paddingLeft="16dp"
+                    android:textSize="20dp"
+                    android:id="@+id/editBio"/>
+    -->

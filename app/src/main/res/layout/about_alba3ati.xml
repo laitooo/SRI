@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:paddingBottom="@dimen/content_padding_bottom"
+        android:paddingLeft="@dimen/content_padding_left"
+        android:paddingRight="@dimen/content_padding_right"
+        android:paddingTop="@dimen/content_padding_top"
+        android:text="About Alba3ati"
+        android:id="@+id/textView1"
+        android:textColor="@color/colorPrimary" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/title_text_size_2"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Alba3ati*
+The elusive alba3ati (Arabic: البعاتي) resides in the perpetually dark side of www.S-RF.org. He is generally peaceful yet he is very dedicated to correcting things that are not right. When alba3ati is irritated he resorts to taking unstoppable action. Here are few of alba3ati’s pet peeves you should avoid making:
+Low quality posts evidenced by a lot of downvotes.
+duplicated/stolen posts with no appropriate referencing.
+posts that solicit private information such as passwords, phone numbers, emails.
+posts that falsely claim affiliation to SRF. All announcement related to SRF have a special place and are broadcasted to all members.
+Any post that does not respect the [membership and posting guidelines].
+How to awaken a alba3ati ?:
+You have a responsibility to summon alba3ati if you come across such posts. You should flag them. After that alba3ati will remove the offending posts, warn the non compliant member or suspend his membership either temporarily or permanently.
+Few admins have the ability to directly wake alba3ati up to action but maintaining the website is the joint responsibility of you, all other members and alba3ati. The admins are not free at all times to monitor posts in the website so make sure you do your part in adhering to the goals of this platform by downvoting any bad posts.
+Final note:
+Now, in the event that you were the non compliant member who alba3ati removed your post, remember that we are all in SRF to learn from each other and alba3ati intervention against your post should not mean that he hates you personally, he is incapable of hate, love, hunger and other human propensities. His primary concern is making sure this website doesn't deviate from its vision and taking care of the “sanity and sanctity” of SRF.
+*A grotesque ghost character famous in Sudanese folklore."
+        android:id="@+id/textView2"
+        android:textColor="@color/white" />
+    </ScrollView>
+
+</LinearLayout>

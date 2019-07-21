@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:paddingBottom="@dimen/content_padding_bottom"
+        android:paddingLeft="@dimen/content_padding_left"
+        android:paddingRight="@dimen/content_padding_right"
+        android:paddingTop="@dimen/content_padding_top"
+        android:text="How to write an effective post"
+        android:id="@+id/textView5"
+        android:textColor="@color/colorPrimary" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/title_text_size_2"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="How to publish a good post
+Remember, communicating your idea is better than mere expressions of helplessness or frustration. When you ask the right question you make it easier for other members to guide you and give you the right feedback/answer. When making a post or writing a reply to a question/post follow these suggestions:
+Avoid weasel words and obfuscation. Focus on clarity and purposefulness of your reply or question.
+Have a thoughtful title for your question/post. Read our opinion of a thoughtful title: A thoughtful post title-- why, what and how.
+Ask a good question. Read our opinion of what a good question/post is: A good question/post-- why, what and how.
+Ensure the content of your question/post is properly formatted:
+Use the formatting options in the contents space.
+Pay particular attention to code snippets. Code without proper tags is uneasy to read.
+Pay particular attention to any special symbols (eg. mathematical, technical).
+Check your spellings and grammar (as best as you can, we want to learn English together).
+Be courteous and helpful. Read the membership guidelines [link to Posting and Membership Policy.
+Make use of the tags at the bottom to categorize your question/post (Ability to tag posts unlocks once you reach level 5).
+Log in before you post unless you want it to be an anonymous zoul or zoula. Anonymous members have restricted privileges. They can not update a post, get notifications about responses to their post or cast votes.
+Lastly, whatever you do, do not invite the wrath of alba3ati by violating SRF guidelines
+Particularly, do not publish the same post repeatedly. Alba3ati will send it to the azure skies.
+How to awaken a alba3ati ?
+You have a responsibility to summon alba3ati if you come across such posts. You should flag them. After that alba3ati will remove the offending posts, warn the non compliant member or suspend his membership either temporarily or permanently.
+Few admins have the ability to directly wake alba3ati up to action but maintaining the website is the joint responsibility of you, all other members and alba3ati. The admins are not free at all times to monitor posts in the website so make sure you do your part in adhering to the goals of this platform by downvoting any bad posts.
+Final Notes
+Now, in the event that you were the non compliant member who alba3ati removed your post, remember that we are all in SRF to learn from each other and alba3ati intervention against your post should not mean that he hates you personally, he is incapable of hate, love, hunger and other human propensities. His primary concern is making sure this website doesn't deviate from its vision and taking care of the “sanity and sanctity” of SRF.
+*A grotesque ghost character famous in Sudanese folklore.
+A thoughtful post title-- Why, what and how
+Before publishing any post, ask yourself “Is the title of the post good enough ?”. Make your title meaningful to humans and search engines. A title chosen with care and thoughtfulness will help the reader to read the post title and formulate an accurate opinion of the post content.
+Why titles need to be good enough:
+Titles are very crucial in site search operations. The keywords in the title help the SRF search engine locate relevant questions. Members are encouraged to search the website to see whether their question was asked previously. If questions were titled “Help please” for example; the member will not be able to determine whether their question was posted before.
+When someone finds your post through a search and they like it; they are likely to upvote it. This will increase your reputation. Having a good title maximizes the chances of finding your post.
+A poor title prevents readers from filtering the interesting posts from the uninteresting ones. Do you want your post to fall in the uninteresting category only because it has a poorly thought title ?. We don’t want that either!.
+Good posts, posted with good titles, will get useful responses and likely increase your reputation. Good posts posted with poor titles might not gain any visibility at all.
+Alba3ati might not like your title.
+How titles can be made to be good enough:
+A post title should precisely reflect the subject of the post. If the post is about writing a motivation letter for a PhD in X country, the title has to make that clear. If the question is about improving a CV section related to work history, the title has to make that clear. If the question is about applying for a scholarship in country X and you are looking for people in that country, the title should make that clear.
+If you are writing about a topic you are not sure is part of SRF scope, your title has to state that this is an “Off Topic” question/post.
+Here is a list of examples of bad titles and why they are bad:
+Help please, Urgent help needed, Simple question, Another question or scholarship question: These titles are bad because they communicate no information at all. The simplicity of your question or that you are asking an additional question or that you are asking a question about scholarship is irrelevant. SRF is a website for Sudanese people to interact around these posts so this is already what you are expected to do when you make a post. The only thing readers will get from such titles is that the poster is lazy to think of a good title and does not want to share information. They might even think that you are not serious about your post.
+Vote for artist X in competition Y : Posts should always have something to do with the scope of SRF. We might allow discussion of topics that could be reasonably interesting to SRF members. In such cases, the titles should clearly indicate that the topic being posted is an off topic.
+A good question/post-- Why, what and how
+Why and What
+Remember, communication is not the same as stating expressions of emotions. Communication requires spending extra time in providing details and context. State exactly what you want, describe the situation and provide context in the form of additional background.
+Poorly worded and formatted questions will outrage the members, that might result in you getting downvotes and losing reputation points. Questions that receive a lot of negative points might invite the intervention of alba3ati. Similarly, posts that ask for private information such as passwords, emails, phone numbers will invite the intervention of alba3ati.
+What will make a good question/post is the information contained in it and the type of answers it attracts. If your posts absorbs a lot of unrelated or angry responses then it may have not been a good question/post but if it positively attracts the attention of SRF members then congratulations…you have made an effective post.
+How to make a good post:
+If you follow these tips someone will be able to provide reasonable response to your post. So show some effort. This is particularly important if you are posting a tutorial. If making an effort becomes your habit and you do this often enough you will improve your communication skills a mighty deal. Trust us. Think through your post and check the following:
+Can you explain your post clearly to yourself ?
+Can you explain it to others ?
+What examples would help the reader understand ?
+Have your provided enough information and background ?
+Did you make efficient use of the formatting options available to you ?
+Finally, take a pause, come back to edit your post again for substance, clarity, precision, spelling and grammar.
+Is your title good enough ? (Link to what makes a good enough title in A thoughtful title-- Why, what and how)
+Go ahead and hit the post button.
+And a few more points:
+Adhere to these suggestions... and pass them on to others.
+Be patient. Courteous. Respectful. (Each member here are helping each other in their free time.)
+Don't post real email addresses, usernames, or passwords.
+Understand that the SRF website is here because of volunteers like you who spend their time, efforts and resources in responding to posts and maintaining the website.
+Read the Posting and membership Policy."
+            android:id="@+id/textView2"
+            android:textColor="@color/white" />
+    </ScrollView>>
+
+</LinearLayout>

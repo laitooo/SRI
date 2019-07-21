@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/copyRights">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:text="@string/copyrights"
+            android:textSize="@dimen/title_text_size_2"
+            android:id="@+id/CopyTitle" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/CopyTitle"
+            android:onClick="twitter"
+            android:src="@drawable/twitter_icon_newf"
+            android:layout_marginTop="@dimen/elative_layout_margin_left_and_right"
+            android:background="@color/copyRights"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/copyTwitter"
+             />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/elative_layout_margin_left_and_right"
+            android:src="@drawable/facebook_icon_new"
+            android:layout_below="@+id/CopyTitle"
+            android:onClick="facebook"
+            android:background="@color/copyRights"
+            android:layout_toLeftOf="@+id/copyTwitter"
+            android:layout_marginRight="@dimen/elative_layout_margin_left_and_right"
+            android:id="@+id/CopyFacebook" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/CopyTitle"
+            android:onClick="youtube"
+            android:layout_marginTop="@dimen/elative_layout_margin_left_and_right"
+            android:src="@drawable/youtube_icon_newf"
+            android:background="@color/copyRights"
+            android:layout_toRightOf="@+id/copyTwitter"
+            android:id="@+id/CopyYoutube"
+            android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/d">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/elative_layout_margin_left_and_right"
+            >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/fragment_edit"
+                android:layout_marginTop="@dimen/profile_margin"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fragment_edit"
+                android:id="@+id/Re2"
+                android:layout_marginTop="@dimen/elative_layout_margin_left_and_right"
+                android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+                android:layout_marginRight="@dimen/elative_layout_margin_left_and_right"
+                android:paddingBottom="@dimen/elative_layout_margin_left_and_right"
+                android:background="@drawable/layout_style">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+                    android:textSize="@dimen/important_title_text_size"
+                    android:layout_marginTop="@dimen/elative_layout_margin_left_and_right"
+                    android:id="@+id/proBioTitle"
+                    android:text="Languages"/>
+
+                <ImageButton
+                    android:layout_width="@dimen/about_button_width_and_height"
+                    android:layout_height="@dimen/about_button_width_and_height"
+                    android:id="@+id/add_lang"
+                    android:tint="@color/colorPrimary"
+                    android:src="@android:drawable/ic_input_add"
+                    android:background="@color/colorPrimaryDark"
+                    android:layout_marginRight="@dimen/elative_layout_margin_left_and_right"
+                    android:layout_marginTop="10dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                     />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/spinner_line_height"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/proBioTitle"
+                    android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+                    android:layout_marginRight="@dimen/elative_layout_margin_left_and_right"
+                    android:id="@+id/proBioLine"
+                    android:background="@color/white"/>
+
+                <android.support.v7.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Languages"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/proBioLine" />
+
+                <!--AutoCompleteTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/Languages"
+                    android:hint="@string/hint_languages"
+                    android:textColorHint="@color/white"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/title_text_size_2"
+                    android:layout_marginRight="@dimen/elative_layout_margin_left_and_right"
+                    android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+                    android:paddingLeft="@dimen/elative_layout_margin_left_and_right"
+                    android:paddingRight="@dimen/elative_layout_margin_left_and_right"
+                    android:layout_marginTop="@dimen/elative_layout_margin_left_and_right"
+                    android:id="@+id/add_lang_auto" />
+
+                <Button
+                    android:id="@+id/UserLevel"
+                    android:layout_width="@dimen/button_width"
+                    android:layout_height="@dimen/button_height"
+                    android:background="@drawable/button_style"
+                    android:text="@string/add"
+                    android:layout_below="@+id/add_lang_auto"
+                    android:layout_marginTop="@dimen/elative_layout_margin_left_and_right"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="@dimen/button_text_size"
+                    android:textColor="@color/colorPrimaryDark" /-->
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Re2"
+                android:layout_marginTop="@dimen/elative_layout_margin_left_and_right"
+                android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+                android:layout_marginRight="@dimen/elative_layout_margin_left_and_right"
+                android:paddingBottom="@dimen/elative_layout_margin_left_and_right"
+                android:background="@drawable/layout_style">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+                    android:textSize="@dimen/important_title_text_size"
+                    android:layout_marginTop="@dimen/elative_layout_margin_left_and_right"
+                    android:id="@+id/proFieldTitle"
+                    android:text="Research fields"/>
+
+                <ImageButton
+                    android:layout_width="@dimen/about_button_width_and_height"
+                    android:layout_height="@dimen/about_button_width_and_height"
+                    android:id="@+id/FieldField"
+                    android:background="#00000000"
+                    android:src="@android:drawable/ic_input_add"
+                    android:tint="@color/colorPrimary"
+                    android:layout_marginRight="@dimen/elative_layout_margin_left_and_right"
+                    android:layout_marginTop="10dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/spinner_line_height"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/proFieldTitle"
+                    android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+                    android:layout_marginRight="@dimen/elative_layout_margin_left_and_right"
+                    android:id="@+id/proFieldLine"
+                    android:background="@color/white"/>
+
+                <android.support.v7.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ResearcheFields"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/proFieldLine" />
+
+
+
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+
+
+
+</RelativeLayout>

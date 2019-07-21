@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/appbar_padding_top"
+        android:theme="@style/AppTheme">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_new_question"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/AppTheme">
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appbar"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:layout_width="@dimen/logo_2_size"
+                android:layout_height="@dimen/logo_2_size"
+                android:id="@+id/newQuePic"
+                android:src="@drawable/logo"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/logo_margin_top"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/newQuePic"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_marginTop="@dimen/elative_layout_margin_left_and_right"
+                android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+                android:text="@string/how_to_select_titel"
+                android:id="@+id/how_to_choose_title"
+                android:textColor="@color/link"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/edit_text_height"
+                android:layout_below="@+id/how_to_choose_title"
+                android:layout_marginLeft="@dimen/new_post_edit_text_margin"
+                android:layout_marginRight="@dimen/new_post_edit_text_margin"
+                android:layout_marginTop="@dimen/new_post_edit_text_margin"
+                android:paddingLeft="@dimen/elative_layout_margin_left_and_right"
+                android:paddingRight="@dimen/elative_layout_margin_left_and_right"
+                android:background="@drawable/layout_resource_reverse"
+                android:id="@+id/newQueSub"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:inputType="textCapCharacters|textMultiLine"
+                android:maxLength="2000"
+                android:isScrollContainer="true"
+                android:maxLines="2"
+                android:hint="Write your question title"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/newQueSub"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_marginTop="@dimen/elative_layout_margin_left_and_right"
+                android:text="@string/how_to_select_question"
+                android:id="@+id/how_to_choose_question"
+                android:textColor="@color/link"
+                android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/new_post_height"
+                android:layout_below="@+id/how_to_choose_question"
+                android:textColor="@color/white"
+                android:layout_marginLeft="@dimen/new_post_edit_text_margin"
+                android:layout_marginRight="@dimen/new_post_edit_text_margin"
+                android:layout_marginTop="@dimen/elative_layout_margin_left_and_right"
+                android:paddingLeft="@dimen/elative_layout_margin_left_and_right"
+                android:paddingRight="@dimen/elative_layout_margin_left_and_right"
+                android:background="@drawable/layout_resource_reverse"
+                android:id="@+id/newQueCon"
+                android:textColorHint="@color/white"
+                android:inputType="textCapCharacters|textMultiLine"
+                android:maxLength="2000"
+                android:isScrollContainer="true"
+                android:maxLines="6"
+                android:hint="@string/hint_new_question_content"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/newQueCon"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_marginTop="@dimen/elative_layout_margin_left_and_right"
+                android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+                android:text="@string/select_tag"
+                android:id="@+id/newQueTex"
+                android:textColor="@color/white" />
+
+            <CheckBox
+                android:id="@+id/tag1"
+                android:layout_marginTop="@dimen/elative_layout_margin_left_and_right"
+                android:layout_below="@+id/newQueTex"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/title_text_size"
+                android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+                android:text="Engineering"
+                android:textColor="@color/colorPrimary"
+                android:checked="false" />
+
+            <CheckBox
+                android:id="@+id/tag2"
+                android:layout_below="@+id/tag1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/title_text_size"
+                android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+                android:text="Medicine"
+                android:textColor="@color/colorPrimary"
+                android:checked="false" />
+
+            <CheckBox
+                android:id="@+id/tag3"
+                android:layout_below="@+id/tag2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/title_text_size"
+                android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+                android:text="Languages"
+                android:textColor="@color/colorPrimary"
+                android:checked="false" />
+
+            <CheckBox
+                android:id="@+id/tag4"
+                android:layout_below="@+id/tag3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/title_text_size"
+                android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+                android:text="Computer Science"
+                android:textColor="@color/colorPrimary"
+                android:checked="false" />
+
+            <CheckBox
+                android:id="@+id/tag5"
+                android:layout_below="@+id/tag4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/title_text_size"
+                android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+                android:text="Information Technology"
+                android:textColor="@color/colorPrimary"
+                android:checked="false" />
+
+            <CheckBox
+                android:id="@+id/tag6"
+                android:layout_below="@+id/tag5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/title_text_size"
+                android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+                android:text="Programming"
+                android:textColor="@color/colorPrimary"
+                android:checked="false" />
+
+            <CheckBox
+                android:id="@+id/tag7"
+                android:layout_below="@+id/tag6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/title_text_size"
+                android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+                android:text="Chemistry"
+                android:textColor="@color/colorPrimary"
+                android:checked="false" />
+
+            <CheckBox
+                android:id="@+id/tag8"
+                android:layout_below="@+id/tag7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/title_text_size"
+                android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+                android:text="Physics"
+                android:textColor="@color/colorPrimary"
+                android:checked="false" />
+
+            <CheckBox
+                android:id="@+id/tag9"
+                android:layout_below="@+id/tag8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/title_text_size"
+                android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+                android:text="Maths"
+                android:textColor="@color/colorPrimary"
+                android:checked="false" />
+
+            <CheckBox
+                android:id="@+id/tag10"
+                android:layout_below="@+id/tag9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/title_text_size"
+                android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+                android:text="Psychology"
+                android:textColor="@color/colorPrimary"
+                android:checked="false" />
+
+            <CheckBox
+                android:id="@+id/tag11"
+                android:layout_below="@+id/tag10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/title_text_size"
+                android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+                android:text="Biology"
+                android:textColor="@color/colorPrimary"
+                android:checked="false" />
+
+            <CheckBox
+                android:id="@+id/tag12"
+                android:layout_below="@+id/tag11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/title_text_size"
+                android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+                android:text="English"
+                android:textColor="@color/colorPrimary"
+                android:checked="false" />
+
+            <CheckBox
+                android:id="@+id/tag13"
+                android:layout_below="@+id/tag12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/title_text_size"
+                android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+                android:text="Others"
+                android:textColor="@color/colorPrimary"
+                android:checked="false" />
+
+
+            <Button
+                android:id="@+id/newPosBtn"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="@dimen/button_height"
+                android:background="@drawable/button_style"
+                android:text="@string/ask_button"
+                android:layout_marginBottom="@dimen/elative_layout_margin_left_and_right"
+                android:textSize="@dimen/button_text_size"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginTop="40dp"
+                android:layout_below="@+id/tag13"
+                android:layout_centerHorizontal="true" />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/layout_style"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/luminary"
+        android:id="@+id/luminarytitle"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/important_title_text_size"
+        android:textColor="@color/colorPrimary"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/elative_layout_margin_left_and_right"
+        android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"
+        android:layout_below="@+id/luminarytitle"
+        android:src="@drawable/luminary"
+        android:id="@+id/luminaryImage"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/altigani_almahi"
+        android:layout_alignTop="@+id/luminaryImage"
+        android:textSize="@dimen/title_text_size_2"
+        android:layout_marginTop="@dimen/title_margin_top"
+        android:paddingLeft="@dimen/title_margin_top"
+        android:layout_toRightOf="@+id/luminaryImage"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/luminaryname" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/professor_of_psychology"
+        android:textSize="@dimen/title_text_size_2"
+        android:id="@+id/luminarydegree"
+        android:paddingLeft="@dimen/title_margin_top"
+        android:layout_marginTop="@dimen/title_margin_top"
+        android:textColor="@color/white"
+        android:layout_below="@+id/luminaryname"
+        android:layout_toRightOf="@+id/luminaryImage"
+        android:layout_toEndOf="@+id/luminaryImage" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/altigabi_bio"
+        android:id="@+id/luminaryinfo"
+        android:layout_marginTop="@dimen/title_margin_top"
+        android:textColor="@color/white"
+        android:paddingLeft="@dimen/title_margin_top"
+        android:paddingRight="@dimen/title_margin_top"
+        android:textSize="@dimen/title_text_size_2"
+        android:layout_below="@+id/luminaryImage"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/ButtonViewMoreLuminaries"
+        android:layout_width="@dimen/button_luminary_width"
+        android:layout_height="@dimen/button_luminary_height"
+        android:background="@drawable/button_style"
+        android:text="@string/about_luminary"
+        android:onClick="about_luminaries"
+        android:textSize="@dimen/button_luminary_text_size"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="@dimen/elative_layout_margin_left_and_right"
+        android:layout_below="@+id/luminaryinfo"
+        android:layout_marginLeft="@dimen/elative_layout_margin_left_and_right"/>
+
+    <Button
+        android:layout_width="@dimen/button_luminary_width"
+        android:layout_height="@dimen/button_luminary_height"
+        android:text="@string/view_more_luminary"
+        android:id="@+id/textView5"
+        android:layout_marginRight="@dimen/elative_layout_margin_left_and_right"
+        android:textColor="@color/colorPrimaryDark"
+        android:onClick="more_luminaries"
+        android:background="@drawable/button_style"
+        android:textSize="@dimen/button_luminary_text_size"
+        android:layout_alignTop="@+id/ButtonViewMoreLuminaries"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+    <Button
+        android:layout_width="@dimen/button_luminary_width"
+        android:layout_height="@dimen/button_luminary_height"
+        android:text="@string/nominate_luminary"
+        android:layout_marginTop="@dimen/elative_layout_margin_left_and_right"
+        android:layout_below="@+id/textView5"
+        android:id="@+id/textView6"
+        android:onClick="nominate"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@drawable/button_style"
+        android:textSize="@dimen/button_luminary_text_size" />
+
+</RelativeLayout>

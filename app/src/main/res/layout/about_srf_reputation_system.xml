@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:paddingBottom="@dimen/content_padding_bottom"
+        android:paddingLeft="@dimen/content_padding_left"
+        android:paddingRight="@dimen/content_padding_right"
+        android:paddingTop="@dimen/content_padding_top"
+        android:text="SRF reputation system"
+        android:id="@+id/textView4"
+        android:textColor="@color/colorPrimary" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/title_text_size_2"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Introduction
+Simply, reputation here is defined as a system of votes gained (and sometimes lost) as a result of members interactions and engagement in the website. The net sum of gains and losses translates into an overall metric that achieves two things: rewards commitment to SRF scope and regulations and penalizes the lack of adherence to these.
+Our aim is to make SRF central to Sudanese research and science hence we have an interest in encouraging creation of good quality posts in this website and preventing proliferation of low quality posts. Success in this responsibility requires the participation of all SRF members. With this aim in mind we devised a reputation system that ensures we all stay within the SRF scope.
+The fairness of this reputation system comes from the fact that it gives all SRF members the ability to cast votes as a form of expression on posts quality and fate. Remember, voting places power in your hand and with power comes a great responsibility and comes the need to know your obligations too. For SRF admins, this voting system removes the need to exercise any form of benevolent dictatorship-a burden we are happy to shed off.
+One final note before getting into details of the reputation system; SRF preserves the right to improve the way the voting and reputation ranking system works and we continue to monitor the various components under the hood that do the bulk of reputation calculations.
+Why
+Several forums and website use some form of reputation systems (Facebook Like button is an example of a reputation system). There is a remarkable attribute distinguishing the Sudanese SRF members from members of other forums. We boast of being very civic in our online interaction and there is this Sudanese trait of genuinely wishing everyone well. The supportive behavior displayed by our members in the Facebook group encourages us to adopt a voting system that translates this trait into a positive outcome.
+Members will have the chance to take charge in guiding their journey within SRF; effectively building a scientific platform with a core Sudanese spirit. Here are only some of the various ways a voting system will be useful to SRF and to our members experience.
+Give members the responsibility and obligation to participate in website maintenance.
+The upvotes and downvotes help guide the “robots” that do much of the hard work in SRF.
+Highlight featured posts.
+Highlight outperforming members.
+Clean noncompliant content and ensure quality of SRF content.
+Who gives the votes, who has them ?:
+Everyday each member is assigned a finite number of votes to cast on posts published by other SRF members. The votes are minted every 24 hours. The higher the rank of the member the bigger is their votes quota (and therefore the more responsibility they will have). Any unused votes in a given day will not be carried over with the next vote assignment.
+What are the results of giving and receiving votes?
+Members are free to dispense their votes however and wherever they see fit. Mind you that any incentives and restrictions in place are only there to encourage positive voting behavior. For instance, if a member spends all his votes within the 24 hour period since receiving them he could be rewarded with an increase in his reputation because he kept being active. If a member decides to act maliciously and all he ever does with his daily vote quota is downvoting other members posts; he might risk losing some of his reputation.
+The owner of a post will be rewarded with reputation gain/loss dependent on the count of upvotes/downvotes they receive. Receiving few downvotes here and there will not result in any loss of points anyways. However, if the post was truly non compliant with SRF rules and regulations, then receiving more downvotes will alert the admins and robots for interventions. If the post was really seriously bad, alba3ati will get mad and he has the power to take appropriate action to correct this.
+Calculating reputation gain and loss:
+The formulas that translate voting into reputation gains are not direct forward, they take into consideration few additional details such as the member’s current reputation; the SRF overall reputation dynamics over the past one week; the age of the post receiving the votes and the member’s current rank. Our tip for you is: your votes and opinions are precious; downvote in a constructive manner, upvote in a constructive manner.
+To simplify it, consider reputation gains and losses to come from two independent sources:
+Your voting behavior towards a member's post.
+Other members voting behavior towards your post.
+Your voting behavior is tracked through a moving average bounded between +1 and -1. The more upvotes than downvotes the member gives; his moving average will lean closer to +1 and effectively the odds of him gaining a reputation point add up. As long as that moving average is in the positive range occasional downvotes by you on deserving bad posts will not put you in risk of losing reputation; in fac, you might get rewarded with reputation gains for helping SRF to stay clean from useless content.
+If, on the other hand, you manage to swing your moving average towards the negative side by excessively downvoting others maliciously; you are ncreasinf the odds of losing a reputation point. The negative moving average in this case can be swung back to the positive side if you spend few votes giving upvotes.
+The threshold for calculating reputation gains and losses changes daily based on the collective voting behavior of all SRF members over the past week. If a member creates a post that receives upvotes there is a one to one correspondence between his reputation gain and the first upvote he gets. Beyond that--dependent on how high above the daily threshold his post upvotes are--one of several alternative odds will sum up with every subsequent upvote, these sums will be translated into reputation gains.
+The story is a bit different for downvotes; the intention is to cushion against deep reputation falls. For example, any downvotes received on a post that is older than two weeks will not cause its owner to lose reputation. Similarly, posts receiving few negative downvotes will not negatively have an effect on their owner’s reputation until the downvotes exceed a certain threshold.
+As your reputation increase you will move to the next level.
+Featuring posts:
+On any given day, week, month and year we will feature the 10 best posts for that time window. This is a very interesting outcome of the voting system idea because your voting will help the robots responsible for this activity identify high quality posts so outperforming members get the recognition they deserve.
+Generally, the robots will decide on the best posts by combining the number of upvotes and downvotes. The candidate posts will then be sorted according to these two criteria. That’s all !."
+            android:id="@+id/textView2"
+            android:textColor="@color/white" />
+    </ScrollView>>
+
+</LinearLayout>

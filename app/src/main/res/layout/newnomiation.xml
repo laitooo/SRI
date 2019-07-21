@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_newnomiation"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/appbar_padding_top"
+        android:theme="@style/AppTheme">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolba2"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/AppTheme">
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/linear_padding_0"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/candinatediscribtio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/elative_layout_margin_left_and_right"
+                android:layout_gravity="center"
+                android:textSize="@dimen/important_title_text_size"
+                android:textColor="@color/colorPrimary"
+                android:text="@string/fill"
+                />
+
+            <EditText
+                android:id="@+id/candinateName"
+                android:hint="@string/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/edit_text_margin"
+                android:textColorHint="@color/white"
+                android:paddingLeft="@dimen/elative_layout_margin_left_and_right"
+                android:paddingRight="@dimen/elative_layout_margin_left_and_right"
+                />
+            <EditText
+                android:id="@+id/candinatespecialty"
+                android:hint="@string/speciality"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/edit_text_margin"
+                android:textColorHint="@color/white"
+                android:paddingLeft="@dimen/elative_layout_margin_left_and_right"
+                android:paddingRight="@dimen/elative_layout_margin_left_and_right"
+                />
+            <EditText
+                android:id="@+id/candinatecontrubtion"
+                android:hint="@string/contribution"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/edit_text_margin"
+                android:textColorHint="@color/white"
+                android:paddingLeft="@dimen/elative_layout_margin_left_and_right"
+                android:paddingRight="@dimen/elative_layout_margin_left_and_right"
+                />
+
+            <EditText
+                android:id="@+id/candinatelink"
+                android:hint="@string/please_provide_limk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/edit_text_margin"
+                android:textColorHint="@color/white"
+                android:paddingLeft="@dimen/elative_layout_margin_left_and_right"
+                android:paddingRight="@dimen/elative_layout_margin_left_and_right"
+                />
+
+            <EditText
+                android:id="@+id/candinatebio"
+                android:layout_width="match_parent"
+                android:hint="@string/short_biio"
+                android:layout_height="@dimen/big_edit_text_height"
+                android:layout_margin="@dimen/edit_text_margin"
+                android:textColorHint="@color/white"
+                android:paddingLeft="@dimen/elative_layout_margin_left_and_right"
+                android:paddingRight="@dimen/elative_layout_margin_left_and_right"/>
+
+            <Button
+                android:id="@+id/candinatephoto"
+                android:layout_width="@dimen/button_width_2"
+                android:layout_height="@dimen/button_height_2"
+                android:textSize="@dimen/button_text_size_0"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="@string/upload_photo"
+                android:background="@drawable/button_style"
+                android:layout_gravity="left"
+                android:layout_marginTop="@dimen/elative_layout_margin_left_and_right"/>
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="@dimen/button_height"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="@string/submit"
+                android:background="@drawable/button_style"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/elative_layout_margin_left_and_right"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/webinars"
+            android:icon="@drawable/icon_radar"
+            android:title="@string/menu_webinar" />
+        <item
+            android:id="@+id/announ"
+            android:icon="@drawable/icon_remote"
+            android:title="@string/menu_announcements" />
+        <item
+            android:id="@+id/log"
+            android:icon="@drawable/icon_radar"
+            android:title="@string/menu_log_out"/>
+        <item
+            android:id="@+id/call"
+            android:icon="@drawable/icon_remote"
+            android:title="@string/menu_contact" />
+    </group>
+
+    <item android:title="@string/menu_about">
+        <menu>
+            <item
+                android:id="@+id/aboutSRF"
+                android:icon="@mipmap/ic_l"
+                android:title="@string/menu_srf" />
+            <item
+                android:id="@+id/ba3ati"
+                android:icon="@drawable/icon_car"
+                android:title="@string/menu_alba3ati" />
+            <item
+                android:id="@+id/story"
+                android:icon="@drawable/icon_notification"
+                android:title="@string/menu_logo"/>
+            <item
+                android:id="@+id/effective"
+                android:icon="@drawable/icon_king"
+                android:title="@string/menu_effective"/>
+            <item
+                android:id="@+id/reputation"
+                android:icon="@drawable/icon_allien"
+                android:title="@string/menu_reputation"/>
+            <item
+                android:icon="@drawable/icon_fire"
+                android:id="@+id/lumin"
+                android:title="@string/menu_luminaries"/>
+
+        </menu>
+    </item>
+
+
+
+
+
+
+
+</menu>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/appbar_padding_top"
+        android:theme="@style/AppTheme">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_new_post"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/AppTheme">
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appbar"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:layout_width="@dimen/logo_2_size"
+                android:layout_height="@dimen/logo_2_size"
+                android:id="@+id/newQuePic"
+                android:src="@drawable/logo"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/logo_margin_top"/>
+
+            <!--EditText
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/edit_text_height"
+                android:layout_below="@+id/newQuePic"
+                android:layout_marginLeft="@dimen/new_post_edit_text_margin"
+                android:layout_marginRight="@dimen/new_post_edit_text_margin"
+                android:layout_marginTop="@dimen/new_post_edit_text_margin"
+                android:background="@drawable/layout_resource_reverse"
+                android:paddingLeft="@dimen/elative_layout_margin_left_and_right"
+                android:paddingRight="@dimen/elative_layout_margin_left_and_right"
+                android:id="@+id/newPosSub"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:inputType="textCapCharacters|textMultiLine"
+                android:maxLength="2000"
+                android:isScrollContainer="true"
+                android:maxLines="2"
+                android:hint="@string/post_title_hint"/-->
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/new_post_height"
+                android:paddingLeft="@dimen/elative_layout_margin_left_and_right"
+                android:paddingRight="@dimen/elative_layout_margin_left_and_right"
+                android:layout_below="@+id/newQuePic"
+                android:textColor="@color/white"
+                android:background="@drawable/layout_resource_reverse"
+                android:layout_marginLeft="@dimen/new_post_edit_text_margin"
+                android:layout_marginRight="@dimen/new_post_edit_text_margin"
+                android:layout_marginTop="@dimen/new_post_edit_text_margin"
+                android:id="@+id/newPosCon"
+                android:textColorHint="@color/white"
+                android:singleLine="false"
+                android:inputType="textCapCharacters|textMultiLine"
+                android:maxLength="2000"
+                android:isScrollContainer="true"
+                android:maxLines="6"
+                android:hint="@string/post_content_hint"/>
+
+
+            <Button
+                android:id="@+id/newPosBtn"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="@dimen/button_height"
+                android:background="@drawable/button_style"
+                android:text="@string/post_button"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/button_text_size"
+                android:layout_marginTop="@dimen/button_login_margin_top"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/newPosCon" />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
+
